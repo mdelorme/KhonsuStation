@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctso22d6jkkvt"]
+
+[ext_resource type="Theme" uid="uid://txm6a7182603" path="res://assets/visuals/ui/resources/DialogBarTheme.tres" id="1_ajg51"]
+[ext_resource type="Script" path="res://scripts/DialogBar.gd" id="2_6nnlk"]
+[ext_resource type="Texture2D" uid="uid://di2lilrrlgrln" path="res://assets/visuals/ui/portraits/portrait_01_edin.jpg" id="2_7eto6"]
+
+[node name="DialogBar" type="Control"]
+custom_minimum_size = Vector2(600, 0)
+layout_mode = 3
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme = ExtResource("1_ajg51")
+script = ExtResource("2_6nnlk")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel/MarginContainer"]
+layout_mode = 2
+bbcode_enabled = true
+text = "[b][color='red']EDIN -[/color][/b] Hi ! My name is Edin. I'm the new drone controller."
+
+[node name="Panel2" type="Panel" parent="."]
+custom_minimum_size = Vector2(320, 425)
+layout_mode = 0
+offset_left = -322.0
+offset_right = -2.0
+offset_bottom = 425.0
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -45.5
+offset_top = -44.5
+offset_right = 45.5
+offset_bottom = 44.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Panel2/MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2_7eto6")
+stretch_mode = 3
