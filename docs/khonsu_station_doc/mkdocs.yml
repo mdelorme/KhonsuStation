@@ -1,0 +1,14 @@
+site_name: Khonsu Station
+nav:
+  - Home: index.md
+  - Game Design Doc: game_design.md
+  - Khonsu Station: khonsu_station.md
+  - Narration: narration.md
+  - Ennemis: ennemis.md
+  - Niveaux: niveaux.md
+  - Personnages: personnages.md
+  - Réferences: refs.md
+
+theme:
+  name: mkdocs
+  locale: fr
