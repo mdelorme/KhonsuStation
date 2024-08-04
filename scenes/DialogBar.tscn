@@ -17,6 +17,7 @@ size_flags_horizontal = 0
 size_flags_vertical = 0
 theme = ExtResource("1_ajg51")
 script = ExtResource("2_6nnlk")
+filename = "res://dialogs/test_dialog.txt"
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
@@ -34,10 +35,69 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="RichTextLabel" type="RichTextLabel" parent="Panel/MarginContainer"]
+[node name="Contents" type="RichTextLabel" parent="Panel/MarginContainer"]
 layout_mode = 2
 bbcode_enabled = true
-text = "[b][color='red']EDIN -[/color][/b] Hi ! My name is Edin. I'm the new drone controller."
+text = "[b][color='red']EDIN -[/color][/b] Hi ! My name is Edin. I'm the new drone controller.
+
+sdfoijsdofijsdfoids
+
+s
+dfopisdjfoisdjfoijsdf
+
+
+sdfoisdfoisjdfoisjdf
+
+sdfisjdfoijsdf
+
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+FSDFSDfsdfijsdofijsdofjsd
+fsodfijosdifjoisdjf
+sdofijsdofijsodifjosidjf
+sdofijsodifjosidjfosdjf
+"
+scroll_following = true
+visible_characters_behavior = 2
 
 [node name="Panel2" type="Panel" parent="."]
 custom_minimum_size = Vector2(320, 425)
@@ -58,7 +118,7 @@ offset_bottom = 44.5
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TextureRect" type="TextureRect" parent="Panel2/MarginContainer"]
+[node name="Portrait" type="TextureRect" parent="Panel2/MarginContainer"]
 layout_mode = 2
 texture = ExtResource("2_7eto6")
 stretch_mode = 3
