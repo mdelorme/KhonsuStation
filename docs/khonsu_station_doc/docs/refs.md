@@ -69,7 +69,21 @@
 * [Slynyrd](https://www.slynyrd.com/blog)
 * [Richard Janes - Introduction to Pixel Art](http://rjanes.com/tutorials/introduction_to_pixel_art.php)
 * [Gas13.ru - Pixel Art Tutorials](http://gas13.ru/v3/tutorials/)
+* [Final Boss Blue - Pixel Art Tutorials](http://finalbossblues.com/pixel-tutorials/)
+* [How to make an RPG character in Pixel Art](https://www.youtube.com/watch?v=YUuyFdsPS6k)
+* [Pixel Art Class - Isometric Character Basics](https://www.youtube.com/watch?v=45gueF62t1Q)
+* [Pixel Art Tutorial - Character & Animation Top Down RPG](https://www.youtube.com/watch?v=GUEVPYlv474)
+* [Graphics and Sprites in retro JRPGs](https://jbahamon.github.io/jrpgs/2021/01/22/graphics-and-sprites.html)
+
+### Graphisme général 
+
+* [Guide to Graphical Projections - Part 1](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-1-introduction-aa3d051c137d)
+* [Guide to Graphical Projections - Part 2](https://medium.com/retronator-magazine/game-developers-guide-to-graphical-projections-with-video-game-examples-part-2-multiview-8e9ad7d9e32f)
 * [The Fundamentals of Color: Hue, Saturation, And Lightness](http://vanseodesign.com/web-design/hue-saturation-and-lightness/)
+
+### Game Design
+
+* [Liz England - The Door Problem](https://lizengland.com/blog/2014/04/the-door-problem/)
 
 
 ### Animation
