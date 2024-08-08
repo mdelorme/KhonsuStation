@@ -7,10 +7,10 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:		
 	# Faire avancer le personnage. Jouer la bonne animation.
-	$State.process(delta)
+	$StateManager.process(delta)
 	
 func _physics_process(delta: float) -> void:
-	$State.physics_process(delta)
+	$StateManager.physics_process(delta)
 
 func play_animation(animation: String) -> void:
 	$Animation.play(animation)

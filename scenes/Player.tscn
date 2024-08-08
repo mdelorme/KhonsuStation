@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/Player.gd" id="1_h3rqd"]
 [ext_resource type="Texture2D" uid="uid://cbcs1khgywf2a" path="res://assets/visuals/sprites/test_sprite_01.png" id="1_hjmrb"]
-[ext_resource type="PackedScene" uid="uid://d3a02tq1p4w8e" path="res://scenes/State.tscn" id="3_gm32k"]
+[ext_resource type="PackedScene" uid="uid://d3a02tq1p4w8e" path="res://scenes/StateManager.tscn" id="3_gm32k"]
 [ext_resource type="Script" path="res://scripts/states/player_states/WaitingForInput.gd" id="4_lvu3i"]
 [ext_resource type="Script" path="res://scripts/states/player_states/Moving.gd" id="5_y846h"]
 [ext_resource type="Script" path="res://scripts/states/player_states/WaitingForAI.gd" id="6_o4s35"]
@@ -253,14 +253,14 @@ script = ExtResource("1_h3rqd")
 sprite_frames = SubResource("SpriteFrames_cg5q0")
 animation = &"idle_up"
 
-[node name="State" parent="." node_paths=PackedStringArray("current_state") instance=ExtResource("3_gm32k")]
+[node name="StateManager" parent="." node_paths=PackedStringArray("current_state") instance=ExtResource("3_gm32k")]
 current_state = NodePath("WaitingForInput")
 
-[node name="WaitingForInput" type="Node" parent="State"]
+[node name="WaitingForInput" type="Node" parent="StateManager"]
 script = ExtResource("4_lvu3i")
 
-[node name="Moving" type="Node" parent="State"]
+[node name="Moving" type="Node" parent="StateManager"]
 script = ExtResource("5_y846h")
 
-[node name="WaitingForAI" type="Node" parent="State"]
+[node name="WaitingForAI" type="Node" parent="StateManager"]
 script = ExtResource("6_o4s35")

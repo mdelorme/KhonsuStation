@@ -1,8 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://d3a02tq1p4w8e"]
+[gd_scene load_steps=2 format=3 uid="uid://dwiwrlvwxjjan"]
 
-[ext_resource type="Script" path="res://scripts/states/State.gd" id="1_2nkme"]
+[ext_resource type="Script" path="res://scripts/states/State.gd" id="1_d12ov"]
 
 [node name="State" type="Node"]
-script = ExtResource("1_2nkme")
-
-[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]
+script = ExtResource("1_d12ov")

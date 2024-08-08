@@ -1,10 +1,8 @@
-extends Node
+extends State
 class_name StatePlayerMoving
 
-signal set_next_state(next_state: Node)
 
 var destination: Vector2
-var parent_node: Node
 var direction := Constants.Direction.None
 
 const epsilon_destination := 1.0 # 1 pixel
